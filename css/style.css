@@ -28,7 +28,7 @@ img {
   display: none;
 }
 
-.mental_health_2 {
+.responsive_img_2 {
   display: none;
 }
 
@@ -41,7 +41,7 @@ img {
   margin: 0 auto;
 }
 
-.mental_health_3 {
+.responsive_img_3 {
   display: none;
 }
 
@@ -152,59 +152,59 @@ nav {
   max-width: 280px;
 }
 
-.tips {
+.steps {
   background-color: rgb(243, 243, 243);
 }
 
-.tips_content {
+.steps_content {
   padding: 64px 0;
   display: flex;
   gap: 30px;
 }
 
-.tips_box {
+.steps_box {
   max-width: 360px;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.tips_headline {
+.steps_headline {
   display: flex;
   gap: 16px;
   align-items: center;
 }
 
-.tips_headline .circle {
+.steps_headline .circle {
   width: 19px;
   height: 19px;
   background: linear-gradient(to bottom right, #eee9d7, #ffcf23);
   border-radius: 50%;
 }
 
-.tips_headline h4 {
+.steps_headline h4 {
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
 }
 
-.tips_box p {
+.steps_box p {
   line-height: 24px;
   letter-spacing: 0.1px;
 }
 
-.explaination {
+.advice {
   background-color: black;
 }
 
-.explaination_content {
+.advice_content {
   padding: 96px 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 133px;
 }
 
-.explaination_text {
+.advice_text {
   padding: 65px 0;
   max-width: 503px;
   display: flex;
@@ -212,22 +212,22 @@ nav {
   gap: 16px;
 }
 
-.explaination_text h3 {
+.advice_text h3 {
   color: white;
   font-size: 24px;
   font-weight: 900;
   line-height: 32px;
 }
 
-.explaination_text h3 + p {
+.advice_text h3 + p {
   margin: 16px 0 0;
 }
 
-.explaination_top p span {
+.advice_top p span {
   font-style: italic;
 }
 
-.explaination_text p {
+.advice_text p {
   color: white;
   line-height: 24px;
   letter-spacing: 0.1px;
@@ -256,7 +256,7 @@ nav {
   top: 45%;
 }
 
-.opinions_cont {
+.thoughts_cont {
   padding: 96px 0;
 }
 
@@ -294,13 +294,13 @@ nav {
   letter-spacing: 0.1px;
 }
 
-.motivation {
+.inspiration {
   background-image: linear-gradient(
       81deg,
       rgba(255, 206.61, 35.06, 0.7) 0%,
       rgba(255, 226.02, 123.25, 0.7) 100%
     ),
-    url(../image/section_back.jpg);
+    url(../image/footer_background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -310,7 +310,7 @@ nav {
   align-items: center;
 }
 
-.motivation_cont {
+.inspiration_cont {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -318,7 +318,7 @@ nav {
   gap: 32px;
 }
 
-.motivation_text p {
+.inspiration_text p {
   text-align: center;
   color: black;
   font-weight: 500;
@@ -326,7 +326,7 @@ nav {
   letter-spacing: 0.1px;
 }
 
-.motivation_text h1 {
+.inspiration_text h1 {
   color: black;
   font-size: 40px;
   font-weight: 600;
@@ -335,7 +335,7 @@ nav {
   margin-top: 12px;
 }
 
-.motivation_cont button {
+.inspiration_cont button {
   padding: 6px 16px;
   border-radius: 25px;
   background-color: white;
@@ -392,6 +392,11 @@ footer {
   font-size: 24px;
   font-family: Kulim Park;
   font-weight: 700;
+}
+
+sup {
+  font-size: 10px;
+  display: none;
 }
 
 .subscribe_content {
@@ -480,10 +485,10 @@ footer {
     left: 0;
     top: 45%;
   }
-  .mental_health_2 {
+  .responsive_img_2 {
     display: inline-flex;
   }
-  .mental_health_1 {
+  .responsive_img_1 {
     display: none;
   }
   .img_2 {
@@ -508,21 +513,21 @@ footer {
     max-width: 620px;
     margin: 24px 20px;
   }
-  .explaination_content {
+  .advice_content {
     display: flex;
     flex-direction: column;
     gap: 64px;
     padding: 32px 0 64px;
     align-items: center;
   }
-  .explaination_text {
+  .advice_text {
     max-width: 100%;
     padding: 0 0;
     display: grid;
     column-gap: 130px;
     grid-template-columns: repeat(2, 1fr);
   }
-  .opinions_cont {
+  .thoughts_cont {
     display: flex;
     flex-direction: column;
     gap: 65px;
@@ -533,18 +538,18 @@ footer {
     gap: 12px;
     align-self: center;
   }
-  .next_btn {
+  .more_btn {
     border-radius: 50%;
     width: 20px;
     height: 20px;
     background-color: black;
     cursor: pointer;
   }
-  .next_btn:nth-child(1),
-  .next_btn:nth-child(3) {
+  .more_btn:nth-child(1),
+  .more_btn:nth-child(3) {
     background-color: #ddd;
   }
-  .motivation {
+  .inspiration {
     padding: 192px 0 0;
   }
   footer {
@@ -630,40 +635,40 @@ footer {
   .img_2 {
     display: none;
   }
-  .tips_content {
+  .steps_content {
     flex-direction: column;
     gap: 40px;
     padding: 20px 0;
   }
-  .tips_box {
+  .steps_box {
     max-width: 100%;
     align-items: center;
     gap: 10px;
   }
-  .tips_box:nth-child(3) .tips_headline {
+  .steps_box:nth-child(3) .steps_headline {
     position: relative;
     transform: translateX(-43px);
   }
-  .mental_health_3 {
+  .responsive_img_3 {
     display: block;
   }
-  .mental_health_2 {
+  .responsive_img_2 {
     display: none;
   }
-  .explaination_content {
+  .advice_content {
     padding: 24px 0;
     gap: 30px;
   }
-  .explaination_text {
+  .advice_text {
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: center;
   }
-  .explaination_top {
+  .advice_top {
     text-align: center;
   }
-  .opinions_cont {
+  .thoughts_cont {
     padding: 30px 0;
     gap: 30px;
   }
@@ -674,7 +679,7 @@ footer {
   .joiner_box:nth-child(3) {
     display: none;
   }
-  .motivation_text h1 {
+  .inspiration_text h1 {
     font-size: 34px;
   }
   footer {
@@ -704,13 +709,13 @@ footer {
     font-size: 16px;
     font-weight: 600;
   }
-  .explaination_content {
+  .advice_content {
     gap: 14px;
   }
-  .explaination_text {
+  .advice_text {
     gap: 14px;
   }
-  .explaination_text h3 + p {
+  .advice_text h3 + p {
     margin: 14px 0 0;
   }
   .joiner_boxes {
@@ -722,22 +727,30 @@ footer {
   .joiner_box:nth-child(2) {
     display: none;
   }
-  .motivation_text h1 {
+  .inspiration_text h1 {
     font-size: 24px;
   }
   footer {
     padding: 50px 0;
   }
   .footer_cont {
+    display: flex;
     gap: 20px;
+    align-items: center;
   }
   .footer_box {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
   }
+  .footer_links{
+    align-items: center;
+  }
   .subscribe_input {
     max-width: 100px;
     position: relative;
+  }
+  sup {
+    display: inline;
   }
   .subscribe_input input {
     padding: 12px 60px 12px 18px;
