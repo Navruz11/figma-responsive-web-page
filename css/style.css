@@ -109,7 +109,7 @@ nav {
   outline: none;
 }
 
-.header_cont {
+.content {
   padding: 130px 0 64px;
   display: flex;
   align-items: center;
@@ -256,7 +256,7 @@ nav {
   top: 45%;
 }
 
-.opinions_content {
+.opinions_cont {
   padding: 96px 0;
 }
 
@@ -310,7 +310,7 @@ nav {
   align-items: center;
 }
 
-.motivation_content {
+.motivation_cont {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -335,7 +335,7 @@ nav {
   margin-top: 12px;
 }
 
-.motivation_content button {
+.motivation_cont button {
   padding: 6px 16px;
   border-radius: 25px;
   background-color: white;
@@ -492,7 +492,7 @@ footer {
   .img_1 {
     display: none;
   }
-  .header_cont {
+  .content {
     flex-direction: column;
     gap: 68px;
     align-items: center;
@@ -522,7 +522,7 @@ footer {
     column-gap: 130px;
     grid-template-columns: repeat(2, 1fr);
   }
-  .opinions_content {
+  .opinions_cont {
     display: flex;
     flex-direction: column;
     gap: 65px;
@@ -612,15 +612,15 @@ footer {
     transform: translateY(0);
     opacity: 1;
   }
-  .header_cont {
+  .content {
     gap: 24px;
     padding: 110px 0 0;
   }
 
-  .header_cont h1 {
+  .content h1 {
     font-size: 40px;
   }
-  .header_cont h1 + p {
+  .content h1 + p {
     font-size: 18px;
     margin: 24px 0 40px;
   }
@@ -663,7 +663,7 @@ footer {
   .explaination_top {
     text-align: center;
   }
-  .opinions_content {
+  .opinions_cont {
     padding: 30px 0;
     gap: 30px;
   }
@@ -689,11 +689,11 @@ footer {
   .logo_nav a {
     font-size: 20px;
   }
-  .header_cont {
+  .content {
     gap: 40px;
     padding: 80px 0 20px;
   }
-  .header_cont > p {
+  .content > p {
     font-size: 16px;
     margin: 24px 0 20px;
   }
